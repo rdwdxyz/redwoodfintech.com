@@ -12,10 +12,10 @@ const inter = Inter({
 export const metadata = {
   title: {
     template: '%s - Redwood',
-    default: 'Redwood - Invest at the perfect time.',
+    default: 'Redwood - Accessible Financial Data.',
   },
   description:
-    'By leveraging insights from our network of industry insiders, you\'ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses.',
+    'Costly platforms or plugins no more. Get the financial data you need, faster, and more affordably, for investor relations teams and investors.',
 }
 
 export default function RootLayout({ children }) {

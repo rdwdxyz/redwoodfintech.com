@@ -4,39 +4,39 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Invest any amount',
+    name: 'Upload Once',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'Your IR team already uploads to SEDAR. Redwood pulls automatically, so you only have to upload once.',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Build a balanced portfolio',
+    name: 'Easy to Integrate',
     description:
-      'Invest in different industries to find the most opportunities to win huge.',
+      'Add the widget to your website with a simple IFrame embed code. As easy as adding a YouTube video.',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Trade in real-time',
+    name: 'Always Compliant',
     description:
-      'Get insider tips on big stock moves and act on them within seconds.',
+      'No more compliance risk for missing disclosure documents on your website. Redwood ensures your website is always compliant with all disclosure documents.',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Profit from your network',
+    name: 'Improve Investor Interest',
     description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
+      'Investors will give up when data is missing or hard to find. Widgets make it easy for investors find the documents they need to invest.',
     icon: DeviceListIcon,
   },
   {
-    name: 'Encrypted and anonymized',
+    name: 'Always Secure and Online',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'Cutting-edge security technology and availability means your website will always load the Redwood widget. No downtime.',
     icon: DeviceLockIcon,
   },
   {
-    name: 'Portfolio tracking',
+    name: 'Stock Price and Fundamentals',
     description:
-      'Watch your investments grow exponentially, leaving other investors in the dust.',
+      'Stock Price, Fundamental metrics, and other widgets are coming soon. Contact for more.',
     icon: DeviceChartIcon,
   },
 ]
@@ -191,18 +191,24 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for building a portfolio"
-      className="py-20 sm:py-32"
+      className="py-20 sm:py-32 bg-white"
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to build your portfolio.
+            Supercharge your IR website with Widgets
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+            Company investor relations websites take work.
+            Quarterly document uploads. Full service solutions are costly. 
+            Redwood Fintech offers easy-to-integrate Widgets which will supercharge your IR website.
           </p>
+          <h3 className="pt-20 text-xl font-medium tracking-tight text-gray-900">
+            Quarterly Financial Summary Widget
+          </h3>
         </div>
+        {/* <!-- Redwood Quarterly Financial Documents Table. Learn more at redwoodfintech.com --> */}
+        <iframe src="https://cdn-redwood.adrw.xyz/cdn/redwood/quarterly-financial-summary-table/zt15zy32tnrmxp6qt1e6x5efe/c7xdefazz8x0q2trd5rchjyzy/" width="100%" height="500px"></iframe>
         <ul
           role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"

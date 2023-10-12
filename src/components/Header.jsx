@@ -113,9 +113,9 @@ export function Header() {
                             {/* <Button href="/login" variant="outline">
                               Log in
                             </Button> */}
-                            <Link href="mailto:hello@redwoodfintech.com">
+                            <a href="mailto:hello@redwoodfintech.com">
                               <Button>Get Started</Button>
-                            </Link>
+                            </a>
                           </div>
                         </Popover.Panel>
                       </>
@@ -127,11 +127,11 @@ export function Header() {
             {/* <Button href="/login" variant="outline" className="hidden lg:block">
               Log in
             </Button> */}
-            <Link href="mailto:hello@redwoodfintech.com">
+            <a href="mailto:hello@redwoodfintech.com">
               <Button className="hidden lg:block">
                 Get Started
               </Button>
-            </Link>
+            </a>
           </div>
         </Container>
       </nav>

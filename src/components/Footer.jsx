@@ -70,12 +70,12 @@ export function Footer() {
               <span className="lg:hidden">Join newsletter</span>
             </Button>
           </form> */}
-          <Link href="mailto:hello@redwoodfintech.com">
+          <a href="mailto:hello@redwoodfintech.com">
             <Button color="cyan" className="ml-4 flex-none">
               <span className="hidden lg:inline">Get Started</span>
               <span className="lg:hidden">Get Started</span>
             </Button>
-          </Link>
+          </a>
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
             &copy; Copyright {new Date().getFullYear()}. All rights reserved.
           </p>

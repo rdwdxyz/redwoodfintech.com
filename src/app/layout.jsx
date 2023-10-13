@@ -25,6 +25,21 @@ export default function RootLayout({ children }) {
       className={clsx('h-full bg-gray-50 antialiased', inter.variable)}
     >
       <body className="flex h-full flex-col">
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E83DLB903D"
+        ></script>
+        <script async src="/gtag.js"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-E83DLB903D');
+        `}}></script>
         <div className="flex min-h-full flex-col">{children}</div>
       </body>
     </html>
